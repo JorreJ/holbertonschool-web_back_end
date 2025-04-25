@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-from typing import Callable
 
 """
 This script defines a function that returns a multiplier function.
 The returned function multiplies its input by the provided multiplier.
 """
+
+from typing import Callable
 
 
 def make_multiplier(multiplier: float) -> Callable[[float], float]:

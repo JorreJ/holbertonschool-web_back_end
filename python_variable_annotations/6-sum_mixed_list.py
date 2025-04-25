@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-from typing import List, Union
 
 """
 This script defines a function to compute the sum
@@ -7,6 +6,8 @@ of a list containing both integers and floats.
 It uses type annotations with Union to allow mixed
 numeric types, and returns the result as a float.
 """
+
+from typing import List, Union
 
 
 def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:

@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-from typing import Union, Tuple
 
 """
 This script defines a function to create a tuple
@@ -7,6 +6,8 @@ containing a string and the square of a numeric value.
 It uses type annotations with Union to allow both
 integers and floats for the value.
 """
+
+from typing import Union, Tuple
 
 
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
