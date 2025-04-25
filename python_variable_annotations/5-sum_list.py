@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-from typing import List
-
 """
 This script defines a function to calculate
 the sum of all float elements in a list.
 It uses type annotations with the List type from the
 typing module for better readability and type checking.
 """
+
+from typing import List
 
 
 def sum_list(input_list: List[float]) -> float:
