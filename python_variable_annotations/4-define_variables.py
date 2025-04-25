@@ -8,7 +8,7 @@ the expected data type. This improves code readability and helps
 with static analysis or type checking tools.
 """
 
-a: int = 1  # An integer value
-pi: float = 3.14  # A floating-point value representing π
-i_understand_annotations: bool = True  # A boolean indicating understanding of annotations
-school: str = "Holberton"  # A string representing a school name
+a: int = 1  # Integer value
+pi: float = 3.14  # Floating-point value representing π
+i_understand_annotations: bool = True
+school: str = "Holberton"  # String representing a school name
