@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-
+from typing import List
 """
 Function to calculate the sum of all float elements in a list.
 Useful for aggregating numeric data from a sequence.
 """
 
 
-def sum_list(input_list: list[float]) -> float:
+def sum_list(input_list: List[float]) -> float:
     """
     Computes the sum of a list of floating-point numbers.
 
