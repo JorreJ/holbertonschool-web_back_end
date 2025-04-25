@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
-# Function to add two floating-point numbers.
-# Useful for basic arithmetic operations where precision is needed.
+"""
+Function to add two floating-point numbers.
+Useful for basic arithmetic operations where precision is needed.
+"""
 
 def add(a: float, b: float) -> float:
     """
