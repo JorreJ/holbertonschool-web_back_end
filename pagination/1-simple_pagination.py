@@ -2,7 +2,8 @@
 
 """
 This script defines a Server class that supports pagination of a CSV dataset.
-It includes a utility function to calculate index ranges for a given page and page size,
+It includes a utility function to calculate
+index ranges for a given page and page size,
 and provides methods to load the dataset and retrieve specific pages of data.
 """
 
@@ -38,7 +39,8 @@ class Server:
 
     def __init__(self):
         """
-        Initializes the Server instance and prepares a placeholder for the dataset.
+        Initializes the Server instance and
+        prepares a placeholder for the dataset.
         """
         self.__dataset = None
 
@@ -62,8 +64,10 @@ class Server:
         Retrieves a page of data from the dataset.
 
         Parameters:
-            page (int): The page number to retrieve (1-indexed). Must be a positive integer.
-            page_size (int): The number of items per page. Must be a positive integer.
+            page (int): The page number to retrieve (1-indexed).
+            Must be a positive integer.
+            page_size (int): The number of items per page.
+            Must be a positive integer.
 
         Returns:
             List[List]: A list of rows corresponding to the requested page.
